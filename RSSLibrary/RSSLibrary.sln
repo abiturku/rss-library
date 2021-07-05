@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSLibrary", "RSSLibrary\RSSLibrary.csproj", "{8780D1CF-9F25-4A82-AC95-691CCEE922CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AldoBiturku.RssLibrary", "AldoBiturku.RssLibrary\AldoBiturku.RssLibrary.csproj", "{8780D1CF-9F25-4A82-AC95-691CCEE922CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AldoBiturku.RichClientDesktopApp", "AldoBiturku.RichClientDesktopApp\AldoBiturku.RichClientDesktopApp.csproj", "{24DAAD45-88E0-4CE5-8884-764627C81608}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8780D1CF-9F25-4A82-AC95-691CCEE922CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8780D1CF-9F25-4A82-AC95-691CCEE922CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8780D1CF-9F25-4A82-AC95-691CCEE922CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24DAAD45-88E0-4CE5-8884-764627C81608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24DAAD45-88E0-4CE5-8884-764627C81608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24DAAD45-88E0-4CE5-8884-764627C81608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24DAAD45-88E0-4CE5-8884-764627C81608}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
