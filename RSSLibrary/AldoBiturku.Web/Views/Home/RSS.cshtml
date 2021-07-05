@@ -1,0 +1,15 @@
+﻿@model IQueryable<RSSViewModel>
+@(Html
+    .Grid(Model)
+    .Build(columns =>
+    {
+        columns.Add(model => model.ID).Titled("ID");
+        columns.Add(model => model.Title).Titled("Title");
+        columns.Add(model => model.Summary).Titled("Summary");
+    })
+    .Using(GridFilterMode.Header)
+    .Empty("No data found")
+    .Filterable()
+    .Sortable()
+    .Pageable()
+)
